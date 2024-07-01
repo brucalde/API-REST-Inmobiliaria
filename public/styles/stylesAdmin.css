@@ -1,0 +1,124 @@
+body{
+    margin-top: -5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-family: "Space Grotesk", sans-serif;
+
+}
+
+.cont__retro {
+    display: flex;
+    margin-top: 3%;
+    margin-left: 4%;
+}
+
+.svg__volver {
+    width: 20px;
+    margin-top: 2px;
+}
+
+
+.cont__retro p {
+    margin-left: 0.5%;
+    font-size: 20px;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.cont__retro p a {
+    text-decoration: none;
+    color: #a3b6a2;
+}
+
+.cont__retro p a:hover {
+    color: #697a68;
+}
+
+.cont__nav{
+    width: 100%;
+    background-color: #a3b6a2;
+    height:100px;
+}
+
+.cont__txt__admin{
+    margin-left: 80%;
+}
+
+.cont__txt__admin p{
+    color: #fff;
+    font-size: 18px;
+}
+
+/*  */
+
+.cont__section__admin{
+    width: 100%;
+    margin-top: 5%;
+}
+
+.cont__admin__links{
+    width: 85%;
+    margin: auto;
+    display: flex;
+}
+
+.cont__admin__links li{
+   list-style: none;
+    margin-left: 2%;
+}
+
+.cont__admin__links li a{
+    text-decoration: none;
+    color: #a3b6a2;
+    font-size: 16px;
+}
+
+.cont__admin__links li a:hover{
+    color: #688067;
+}
+
+/* Agregarcard */
+
+.cont__titulo__agregarcard{
+    margin-left: 35%;
+    margin-top: 4%;
+}
+
+.cont__titulo__agregarcard div p{
+    font-size: 22px;
+    color: #a3b6a2;
+}
+
+.cont__form__agregarcard{
+    margin-left: 35%;
+    margin-top: 3%;
+}
+
+
+.form-control{
+    width: 20%;
+    padding: 5px;
+}
+
+.item-form{
+    margin-top: 2%;
+}
+
+.item-form input{
+    margin-top: 1%;
+}
+
+.boton-agregar{
+    padding: 8px;
+    background-color: #b5c7b4;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-left: 7%;
+    margin-top: 2%;
+}
+
+.boton-agregar:hover{
+    background-color: #fff;
+    color: #b5c7b4;
+    cursor: pointer;
+}

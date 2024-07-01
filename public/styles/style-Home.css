@@ -1,0 +1,80 @@
+.cont__retro {
+    display: flex;
+    margin-top: 3%;
+    margin-left: 4%;
+}
+
+.svg__volver {
+    width: 20px;
+    margin-top: 2px;
+}
+
+
+.cont__retro p {
+    margin-left: 0.5%;
+    font-size: 20px;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.cont__retro p a {
+    text-decoration: none;
+    color: #a3b6a2;
+}
+
+.cont__retro p a:hover {
+    color: #697a68;
+}
+
+/*  */
+
+.cont__seccion__int{
+    display: flex;
+}
+
+.seccion__imagenes{
+    width: 55%;
+    margin-top: 5%;
+}
+
+.cont__img__interiores{
+    display: flex;    
+}
+
+.img__interiores{
+    width: 280px;
+    height: 280px;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.seccion__texto{
+    margin-top: 5%;
+    margin-left: 1%;
+    flex-wrap: wrap;
+    width: 35%;
+}
+
+.seccion__texto p{
+    margin-top: 4%;
+}
+
+.titulo__texto{
+    font-size: 30px;
+    color: #a3b6a2;
+}
+
+.esp__int{
+    font-size: 15px;
+    color: rgb(209, 209, 209);
+    font-weight: 600;
+}
+
+.descripcion__texto{
+        font-family: "Space Grotesk", sans-serif;
+}
+
+.descripcion__texto__tres{
+        font-family: "Space Grotesk", sans-serif;
+}
+
+

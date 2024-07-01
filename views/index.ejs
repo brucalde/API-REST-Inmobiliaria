@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Space+Grotesk:wght@300..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../styles/style.css">
+
+    <title>Inmobiliaria Proyect</title>
+</head>
+<body>
+    
+    <section id="primer__navegador">
+        <nav>
+            <div class="primer__logo">
+                <img src="" alt="">
+            </div>
+            <div class="contenedor__listas">
+                <ul>
+                    <li class="listas__li"><a href="#" class="listas__a">Inicio</a></li>
+                    <li class="listas__li"><a href="#tercer__seccion" class="listas__a">Inmuebles</a></li>
+                    <li class="listas__li"><a href="#cuarta__seccion" class="listas__a">Especialistas</a></li>
+                    <li class="listas__li"><a href="/inmobiliaria/administrador"  class="listas__a">Administrador</a></li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+    <div style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+            style="height: 100%; width: 100%;">
+            <path d="M-5.36,4.47 C186.51,7.42 473.75,0.52 504.22,22.22 L499.72,-1.45 L-7.62,-17.25 Z"
+                style="stroke: none; fill: #a3b6a2;"></path>
+        </svg></div>
+        
+    
+    <section id="segunda__seccion">
+        <div class="cont__general__segunda">
+            <div class="cont__titulo__principal">
+                <h1>INMOBILIARIA <br> PROYECTO </h1>
+            </div>
+            <div class="cont__descripcion">
+                <p>
+                    Experiencia. Dedicación. Lo que necesitas.
+                    <img src="../imagenes/undraw_agree_re_hor9.svg" alt="" class="img__ilustracion">
+                </p>
+            </div>
+        </div>
+        
+    </section>
+
+    <section id="tercer__seccion">
+        <div class="cont__titulo__secundario">
+            <h2>Casas disponibles</h2>
+        </div>
+
+        <div class="cont__cards">
+            <% data.forEach((prod)=>{%>
+            <div class="cont__individual__imagenes">
+                <img src="../imagenes/<%=prod.imagen%>" alt="" class="img__casas">
+                <div>
+                    <p>$ <%=prod.precio%></p>
+                    <p class="zona__especial"> Zona: <%=prod.zona%></p>
+                    <p><a href="/inmobiliaria/pageHome">Ver inmueble</a></p>
+                </div>
+            </div>
+            <%})%>
+          
+        </div>
+
+    </section>
+
+    <img src="../imagenes/segundo-wave.svg" alt="" class="second__wave">
+    <section id="cuarta__seccion">
+        
+        <div class="cont__personas">
+            <div class="cont__slider">
+                <div class="cont__img">
+                    <img src="../imagenes/Avatar-1min.jpg" alt="" class="img__persona">
+                </div>
+            </div>
+            <div class="cont__personas__desc">
+                <p class="titulo__persona"> Maria </p>
+                <p> Experta descataca que te asesorará y guiará en todo el proceso simpificando todo el proceso de tu alquiler. </p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="cont__contacto">
+            <p> CONTACTO</p>
+            <p> Telefono: 0800-SIMULADOR-662</p>
+            <p> Whatsapp: 554 98 98 98 912</p>
+            <p> Mail : inmobiliariasimulador@proyect.com</p>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,293 @@
+
+body{
+    margin: 0;
+}
+
+#primer__navegador{
+    width: 100%;
+    height: 100px;
+    background-color: #a3b6a2;
+}
+
+nav{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor__listas{
+    width: 35%;
+}
+
+.contenedor__listas ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 10%;
+}
+
+.contenedor__listas ul:hover{
+    cursor: pointer;
+}
+
+
+.listas__a{
+    text-decoration: none;
+    color: #fff;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.listas__a:hover{
+    color: #454e44;
+}
+
+
+/* Segunda seccion */
+
+#segunda__seccion{
+    width: 100%;
+    height: 370px;
+}
+
+.cont__general__segunda{
+    margin: auto;
+    display: flex;
+}
+
+.cont__titulo__principal{
+    margin-top: 1%;
+    margin-left: 15%;
+}
+
+h1{
+    font-size: 60px;
+    background: linear-gradient(161deg, #26474d, #a2db82);
+    background-clip: content-box;
+    -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: "Chakra Petch", sans-serif;
+        text-align: center;
+    
+        
+}
+
+.cont__descripcion{
+    margin-top: 3%;
+    margin-left: 15%;
+}
+
+.cont__descripcion p{
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.img__ilustracion{
+    margin-top: 5%;
+    width: 400px;
+    border-radius: 50%;
+}
+/* Tercer seccion */
+
+#tercer__seccion{
+    width: 90%;
+    padding: 4%;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.cont__titulo__secundario{
+    margin-left: 5%;
+}
+
+.cont__cards{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 5%;
+}
+
+.cont__individual__imagenes{
+    background-color: #e2e2e2;
+    width: 320px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 4%;
+}
+
+.img__casas{
+    width: 320px;
+}
+
+.zona__especial{
+    font-weight: 600;
+    color: #909090;
+    font-size: 12px;
+}
+
+
+/* Cuarta seccion */
+
+.second__wave{
+    width: 100%;
+    margin-bottom: -2%;
+}
+
+#cuarta__seccion{
+    width: 100%;
+    
+    font-family: "Space Grotesk", sans-serif;
+    background-color: #a3b6a2;
+    margin-top: 0%;
+}
+
+.cont__personas{
+    display: flex;
+}
+
+
+.cont__slider{
+    width: 50%;
+}
+
+.cont__img{
+    background-color: #e2e2e2;
+    padding: 5px;
+    width: 400px;
+    margin: auto;
+    margin-bottom: 8%;
+}
+
+.img__persona{
+    width: 400px;
+}
+
+.titulo__persona{
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+}
+
+.cont__personas__desc{
+    margin-top: 10%;
+    margin-left: 5%;
+    width: 40%;
+}
+
+
+
+/* footer */
+
+footer{
+    width: 100%;
+    background-color: #a3b6a2;
+    height: 450px;
+    margin-top: 10%;
+    margin-bottom: 0%;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.cont__contacto{
+    padding-top: 5%;
+    margin-left: 8%;
+    color: #ffffff;
+}
+
+
+/*-------------------------------------------------------------- Administrador */
+
+.cont__retro{
+    display: flex;
+    margin-top: 3%;
+    margin-left: 4%;
+}
+
+.svg__volver{
+    width: 20px;
+    margin-top: 2px;
+}
+
+
+.cont__retro p{
+    margin-left: 0.5%;
+    font-size: 20px;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.cont__retro p a{
+    text-decoration: none;
+    color: #a3b6a2;
+}
+
+.cont__retro p a:hover{
+    color: #697a68;
+}
+
+.admin__segunda__seccion{
+    width: 100%;
+}
+
+.fondo__login{
+    width: 35%;
+    background-image: url(/imagenes/fondos/fondo-login.jpg);
+    margin-top: 5%;
+    margin-left: 30%;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    border-radius: 5px;
+}
+
+.cont__formulario{
+    margin: auto;
+    width: 75%;
+    padding: 10px;
+    border: 1px solid rgb(192, 192, 192);
+    align-items: center;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.img__login{
+    width: 60px;
+    margin-left: 45%;
+    border-radius: 50%;
+}
+
+.cont__admin__form form{
+    display: flex;
+    flex-direction: column;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.cont__admin__form form label{
+    margin-left: 8%;
+    margin-top: 3%;
+}
+
+.cont__admin__form form input{
+    padding: 10px;
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 5px;
+    width: 80%;
+    margin: auto;
+    margin-top: 3%;
+}
+
+.cont__admin__form form button{
+    padding: 8px;
+    width: 30%;
+    margin: auto;
+    margin-top: 4%;
+    background-color: #a3b6a2;
+    color: #fff;
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 5px;
+}
+
+.cont__admin__form form button:hover{
+    cursor: pointer;
+    background-color: #526b51;
+}
+ 
+
+
+
